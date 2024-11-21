@@ -1,7 +1,10 @@
 <template>
   <div class="home-container">
-    <h1 class="wedding-title">Katie & Aidan's Wedding</h1>
     
+    <h1 class="wedding-title">Katie & Aidan's Wedding</h1>
+    <div class="location-image">
+        <img src="/images/park-of-roses.jpg" alt="Columbus Park of Roses" />
+    </div>
     <div class="welcome-message">
       <p>
         After eloping in April of 2023, we are thrilled to celebrate our love again with all of you!
@@ -9,12 +12,13 @@
     </div>   
    
     <div class="wedding-date">
-      <h2>Date</h2>
+      <h2>When</h2>
       <p>April 26, 2025</p>
+      <p>Ceremony begins at XX:XX AM and will be followed by a lunch reception (with a bar).</p>
     </div>
 
     <div class="location-details">
-      <h2>Location</h2>
+      <h2>Where</h2>
       <address>
         <a href="https://maps.app.goo.gl/UP5ebr73kkykoTmHA" target="_blank" rel="noopener noreferrer">
           Whetstone Shelterhouse<br>
@@ -22,22 +26,25 @@
           Columbus, OH 43214<br>
         </a>
       </address>
-      <p>Ceremony begins at XX:XX AM</p>
-      <div class="location-image">
-        <img src="/images/park-of-roses.jpg" alt="Columbus Park of Roses" />
-      </div>
     </div>
 
     <div class="dress-code">
-      <h2>Dress Code</h2>
+      <h2>What should I wear?</h2>
       <p>
-        Festive or cocktail attire (dresses, dress shirt & pants, etc.)would be great! The ceremony will be outdoors if weather permits, so dress accordingly.
+        Festive or cocktail attire (dresses, dress shirt & pants, etc.) would be great! The ceremony will be outdoors if weather permits, so dress accordingly.
+      </p>
+    </div>
+
+    <div class="afters">
+      <h2>What are we doing later?</h2>
+      <p>
+        We are planning to reserve a space somewhere more casual for anyone who wants to hang out and have dinner/drinks (this will not be catered). Time around 7pm, location TBD depending how many plan to come. Info will be posted here when we figure that out.
       </p>
     </div>
 
     <div class="rsvp-section">
       <h2>RSVP</h2>
-      <p>Please let us know if you can attend by September 1, 2024</p>
+      <p>Please let us know if you can attend by March 29, 2024</p>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJfL5um3uuaZvPM5kT37MbTvgW554D6GEurbYfpNRknsknDg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="rsvp-button">
         RSVP Now
       </a>
