@@ -1,29 +1,30 @@
 <template>
   <div class="registry-container">
+    <NuxtLink to="/" class="back-arrow">←</NuxtLink>
     <h1 class="page-title">Wedding Registry</h1>
 
-    <div class="welcome-message">
+    <div class="section">
       <p>
         Don't feel obligated to gift us anything! We've made a wonderful home for ourselves the last few years (and some of you have already gifted us) &#128522; but if you still want to...
       </p>
     </div>
     
-    <div class="registry-section">
+    <div class="section">
       <h2>Amazon Registry</h2>
-      <p>Here's a few fun things:</p>
-      <a href="your-amazon-registry-link-here" target="_blank" rel="noopener noreferrer" class="registry-button">
+      <p>If you're here early (hi!) we still need to add some more things to the registry - check back soon!</p>
+      <a href="https://www.amazon.com/wedding/share/matzkoalbert" target="_blank" rel="noopener noreferrer" class="registry-button">
         View Amazon Registry
       </a>
     </div>
 
-    <div class="digital-gifts">
+    <div class="section">
       <h2>Digital Gifts</h2>
       <p>Or if you want to contribute to our honeymoon/house/future dog fund:</p>
       <div class="payment-options">
-        <a href="your-venmo-link-here" target="_blank" rel="noopener noreferrer" class="payment-button venmo">
+        <a href="https://www.venmo.com/u/Aidan-Matzko" target="_blank" rel="noopener noreferrer" class="payment-button venmo">
           Venmo
         </a>
-        <a href="your-paypal-link-here" target="_blank" rel="noopener noreferrer" class="payment-button paypal">
+        <a href="https://paypal.me/aidanmatzko" target="_blank" rel="noopener noreferrer" class="payment-button paypal">
           PayPal
         </a>
       </div>
@@ -37,20 +38,21 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Satisfy&family=Old+Standard+TT&display=swap');
-.welcome-message {
-  margin-bottom: 2rem;
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+.back-arrow {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #8b4513;
+  text-decoration: none;
+  transition: transform 0.2s ease;
 }
 
-.welcome-message p {
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.8;
+.back-arrow:hover {
+  transform: translateX(-3px);
 }
+
 .registry-container {
   max-width: 800px;
   margin: 0 auto;
@@ -81,19 +83,18 @@ h2 {
   font-weight: 700;
 }
 
-.registry-section, .digital-gifts {
+.section {
   margin-bottom: 2rem;
   text-align: center;
-  padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 p {
   line-height: 1.6;
   margin-bottom: 1rem;
   font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .registry-button, .payment-button {

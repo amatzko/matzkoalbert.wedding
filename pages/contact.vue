@@ -1,5 +1,6 @@
 <template>
   <div class="contact-container">
+    <NuxtLink to="/" class="back-arrow">←</NuxtLink>
     <h1 class="page-title">Contact Us</h1>
     
     <div class="contact-info">
@@ -17,7 +18,7 @@
     </div>
     
     <div class="contact-message">
-      <p>Feel free to reach out to us if you have any questions about our wedding!</p>
+      <p>Feel free to reach out to us if you have any questions!</p>
     </div>
   </div>
 </template>
@@ -30,6 +31,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Satisfy&family=Old+Standard+TT&display=swap');
 
 .contact-container {
+  position: relative;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,6 +41,20 @@
   border: 1px solid #d3c7a6;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-arrow {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #8b4513;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.back-arrow:hover {
+  transform: translateX(-3px);
 }
 
 .page-title {

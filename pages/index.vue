@@ -12,13 +12,13 @@
     </div>   
    
     <div class="wedding-date">
-      <h2>When</h2>
+      <h2>When?</h2>
       <p>April 26, 2025</p>
-      <p>Ceremony begins at XX:XX AM and will be followed by a lunch reception (with a bar).</p>
+      <p>Ceremony begins at 12:30 PM and will be followed by a lunch reception (with a bar). The reception will end around 3:45 PM.</p>
     </div>
 
     <div class="location-details">
-      <h2>Where</h2>
+      <h2>Where?</h2>
       <address>
         <a href="https://maps.app.goo.gl/UP5ebr73kkykoTmHA" target="_blank" rel="noopener noreferrer">
           Whetstone Shelterhouse<br>
@@ -31,23 +31,46 @@
     <div class="dress-code">
       <h2>What should I wear?</h2>
       <p>
-        Festive or cocktail attire (dresses, dress shirt & pants, etc.) would be great! The ceremony will be outdoors if weather permits, so dress accordingly.
+        Festive or cocktail attire (dresses, dress shirt & pants, etc.) would be great! There is no official theme. The ceremony will be outdoors if weather permits, so dress accordingly.
       </p>
     </div>
 
     <div class="afters">
       <h2>What are we doing later?</h2>
       <p>
-        We are planning to reserve a space somewhere more casual for anyone who wants to hang out and have dinner/drinks (this will not be catered). Time around 7pm, location TBD depending how many plan to come. Info will be posted here when we figure that out.
+        We are planning to reserve a space somewhere more casual for anyone who wants to hang out and have dinner/drinks (this will not be catered). Time around 7pm, location TBD depending how many plan to come. We will update this page and contact you when we have more information.
+      </p>
+    </div>
+
+    <div class="accommodations">
+      <h2>Travelling from out of town?</h2>
+      <p>
+        The Columbus airport (CMH) is located only 15 minutes from downtown. We will not have a hotel room block, but we recommend the following hotels:
+      </p>
+      <ul>
+        <li><a href="https://www.marriott.com/en-us/hotels/cmhdm-le-meridien-columbus-the-joseph/overview/" target="_blank" rel="noopener noreferrer">La Meridien (~$350/night)</a></li>
+        <li><a href="https://www.hilton.com/en/hotels/cmhdwhh-hilton-columbus-downtown/" target="_blank" rel="noopener noreferrer">Hiltown Columbus Downtown (~$240/night)</a></li>
+        <li><a href="https://www.marriott.com/en-us/hotels/cmhcy-courtyard-columbus-downtown/overview/" target="_blank" rel="noopener noreferrer">Courtyard Downtown Columbus (~$125/night)</a></li>
+      </ul>
+      <p>
+        We have also had good experiences with Airbnb's in the area.
       </p>
     </div>
 
     <div class="rsvp-section">
       <h2>RSVP</h2>
-      <p>Please let us know if you can attend by March 29, 2024</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJfL5um3uuaZvPM5kT37MbTvgW554D6GEurbYfpNRknsknDg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="rsvp-button">
-        RSVP Now
-      </a>
+      <p>Please let us know if you can attend by January 26, 2025.</p>
+      <div class="button-row">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJfL5um3uuaZvPM5kT37MbTvgW554D6GEurbYfpNRknsknDg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="rsvp-button">
+          RSVP
+        </a>
+        <NuxtLink to="/contact" class="rsvp-button">
+          Contact Us
+        </NuxtLink>
+        <NuxtLink to="/registry" class="rsvp-button">
+          Registry
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
@@ -79,6 +102,15 @@
   font-family: 'Satisfy', cursive;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
 
 h2 {
   font-size: 2rem;
