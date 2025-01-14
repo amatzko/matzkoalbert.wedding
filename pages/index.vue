@@ -59,7 +59,7 @@
 
     <div class="rsvp-section">
       <h2>RSVP</h2>
-      <p>Please let us know if you can attend by January 26, 2025.</p>
+      <p>Please let us know if you can attend by February 16th, 2025.</p>
       <div class="button-row">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJfL5um3uuaZvPM5kT37MbTvgW554D6GEurbYfpNRknsknDg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="rsvp-button">
           RSVP
