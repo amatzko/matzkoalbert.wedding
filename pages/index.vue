@@ -7,14 +7,14 @@
     </div>
     <div class="welcome-message">
       <p>
-        After eloping in April of 2023, we are thrilled to celebrate our love again with all of you!
+        After eloping in April of 2024, we are thrilled to celebrate our love again with all of you!
       </p>
     </div>   
    
     <div class="wedding-date">
       <h2>When?</h2>
       <p>April 26, 2025</p>
-      <p>Ceremony begins at 12:30 PM and will be followed by a lunch reception (with a bar). The reception will end around 3:45 PM.</p>
+      <p>Arrival is at 11:30AM. The ceremony begins at 12:00 PM and will be followed by a lunch reception (with a bar). The reception will end around 3:45 PM.</p>
     </div>
 
     <div class="location-details">
@@ -38,7 +38,7 @@
     <div class="afters">
       <h2>What are we doing later?</h2>
       <p>
-        We are planning to reserve a space somewhere more casual for anyone who wants to hang out and have dinner/drinks (this will not be catered). Time around 7pm, location TBD depending how many plan to come. We will update this page and contact you when we have more information.
+        We are attending <a href="https://landgrantbrewing.com/" target="_blank" rel="noopener noreferrer">Land Grant Brewing</a> for drinks after the wedding! We have a tent reserved from 6:30PM to close.
       </p>
     </div>
 

@@ -9,17 +9,17 @@
       </p>
     </div>
     
-    <div class="section">
+    <!-- <div class="section">
       <h2>Amazon Registry</h2>
       <p>If you're here early (hi!) we still need to add some more things to the registry - check back soon!</p>
       <a href="https://www.amazon.com/wedding/share/matzkoalbert" target="_blank" rel="noopener noreferrer" class="registry-button">
         View Amazon Registry
       </a>
-    </div>
+    </div> -->
 
     <div class="section">
       <h2>Digital Gifts</h2>
-      <p>Or if you want to contribute to our honeymoon/house/future dog fund:</p>
+      <p>If you want to contribute to our honeymoon/house/future dog fund:</p>
       <div class="payment-options">
         <a href="https://www.venmo.com/u/Aidan-Matzko" target="_blank" rel="noopener noreferrer" class="payment-button venmo">
           Venmo
